@@ -1,5 +1,5 @@
 //
-//  RXLAppDelegate.h
+//  MainViewController.h
 //  TableviewSearch
 //
 //  Created by qianfeng1 on 14-1-8.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RXLAppDelegate : UIResponder <UIApplicationDelegate>
+@interface MainViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
+
+
 
 @end
